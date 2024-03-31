@@ -47,7 +47,10 @@ const Navbar = () => {
       icon: <PhoneAndroidIcon />,
       to: "/contact", // Link to Contact component
     },
-    // You can add more menu options here
+    {
+      text: "Cart",
+      icon: <ShoppingCartRoundedIcon />,
+    },
   ];
 
   return (
