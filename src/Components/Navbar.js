@@ -72,7 +72,7 @@ const Navbar = () => {
       <div className="navbar-menu-container">
         <HiOutlineBars3 onClick={() => SetOpenMenu(true)} />
       </div>
-      <Drawer open={openMenu} onClose={() => SetOpenMenu(false)} anchor="right">
+      <Drawer open={openMenu} onClose={() => SetOpenMenu(false)} anchor="top">
         <Box
           sx={{ width: 250 }}
           role="presentation"
